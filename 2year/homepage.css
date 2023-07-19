@@ -1,0 +1,358 @@
+*{
+    font-family: 'Open Sans', sans-serif !important;
+
+    
+    
+}
+html body{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.section2{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+.circle {
+    text-align: right;
+    padding-left: 50%;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #54b3d6;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: anim 10s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.text span{
+    position: absolute;
+    left: 50%;
+    font-size: 0.75em;
+    transform-origin: 0 100px;
+}
+
+a:hover{
+  box-shadow: inset 120px 0 0 0 #54b3d6 ;
+  color: white;
+
+}
+
+.tron{
+    color: white;
+}
+p{
+    color: black;
+}
+h1{
+    color: white;
+}
+.logo span{
+    color: blue;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(images/ClassPass_Zoom-background_6-min.jpeg);
+
+}
+
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: wiggle 2s linear infinite;
+    
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+.button:hover{
+    background-color:wheat;
+}
+
+h1{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.downloadimg{
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 350px;
+    height: 100px;
+}
+
+.whitein4{
+    width: 97%;
+    z-index: 0;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: gray;
+    backdrop-filter: blur(3.5px);
+    
+
+    gap: 1em;
+}
+
+.whitein4 h1{
+    color: black;
+}
+
+
+h3{
+    color: black ;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: black;
+    background-color: #1112222a;
+}
+
+.container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title{
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+.content{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .image{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.content .image img{
+    z-index: 111;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content .text-box{
+    z-index: 222;
+    background: gray;
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}
+
+.content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.media-icons{
+    margin-top: 100px;
+}
+
+.media-icons a{
+    color: black;
+    font-size: 2em;
+    margin: 60px;
+}
+
+.section-title{
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.info{
+    width: 700px;
+    margin-left: 50px;
+}
+
+.media-info{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.media-info li{
+    list-style: none;
+    font-size: 1.4em;
+}
+
+.media-info li a{
+    color: black;
+    text-decoration: none;
+}
+
+.media-info li:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.media-info li:nth-child(1), .media-info li:nth-child(5){
+    padding-left: 100px;
+}
+
+.media-info li:nth-child(2), .media-info li:nth-child(4){
+    padding-left: 50px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.white-border-box {
+    border: 1px solid #fff; 
+    padding: 10px; 
+    background-color: white; 
+    width:90%;
+    border-radius: 20px;
+  }
+.box-cuoi{
+    color: black;
+}
+
+.chu-cuoi{
+    background-color: black;
+    display: inline-block;
+    display: flex;
+}
+
+.source li{
+    color: white;
+    font-size: large;
+    margin-left: 400px;
+
+}
+
+.thong-tin div{
+    color: white;
+    margin-left: 20px;
+    font-size: large;
+}
+
+.thong-tin {
+    margin-left: 20px;
+    font-size: large;
+}
