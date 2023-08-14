@@ -1,8 +1,8 @@
 var _CONTENT = [ 
-	"Twinkle, twinkle, little star", 
-	"How I wonder what you are", 
-	"Up above the world so high", 
-	"Like a diamond in the sky"
+	"Hehe và thế nà mềnh được 2 năm òi", 
+	"Quá nhanh lun mới bao giờ còn nghĩ đc 1 năm sốc", 
+	"Nhưng mà mềnh còn phải được lâu hơn nữaaaa", 
+	"Mai cưới nuônnnn"
 ];
 
 // Current sentence being processed

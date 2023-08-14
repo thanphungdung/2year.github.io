@@ -1,6 +1,7 @@
 *{
-    font-family: 'Open Sans', sans-serif !important;
-
+    font-family: 'Shadows Into Light', cursive !important;
+    font-size: 30px;
+    
     
     
 }
@@ -13,7 +14,7 @@ html body{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: lightpink;
 
     
 
@@ -83,7 +84,7 @@ a{
     width: 100%;
     height: 450px;
     color: white;
-    background-image: url(images/ClassPass_Zoom-background_6-min.jpeg);
+    background-image: url(couple/IMG_5255.JPG)
 
 
 }
@@ -197,6 +198,6 @@ h4{
 
 .anh1{
     width: 500px;
-    height: 400px;
+    height: 550px;
     margin-left: 30px;
 }

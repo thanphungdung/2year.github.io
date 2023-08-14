@@ -1,0 +1,93 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    line-height: 1.5;
+    background-color: white;
+    background-image: url(images/abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg);
+    background-attachment: scroll;
+}
+
+.box{
+    background: #e91e63;
+    padding: 60px 60px;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: 25vh auto;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+.box h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.top-border::before{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    background: url(); 
+    background-size: cover;
+    top: 20px;
+    left: 20px;
+     
+
+}
+.top-border:after{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    background: url();
+    top: 20px;
+    right: 20px;
+    transform: rotate(90deg);
+
+}
+
+.bottom-border::before{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    background: url();
+    background-size: cover;
+    bottom: 20px;
+    left: 20px;
+    transform: rotate(270deg);
+}
+
+.bottom-border:after{
+    content: '';
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    background: url();
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(180deg);
+}
+
+.box img{
+    width: 100px;
+}
+
+.love{
+    animation: pulse 1s ease infinite;
+    display: inline-block;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
