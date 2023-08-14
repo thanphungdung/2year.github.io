@@ -1,5 +1,5 @@
 *{
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Shadows Into Light', cursive !important;
 
     
     
@@ -12,7 +12,7 @@ html body{
     overflow-x: hidden;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
 
     
 
@@ -104,13 +104,16 @@ a:hover{
 }
 
 .tron{
-    color: white;
+    color: #c542f5;
+    font-size:25px;
 }
 p{
     color: black;
 }
 h1{
-    color: white;
+    color: black;
+    font-family: 'Pacifico', cursive;
+
 }
 .logo span{
     color: blue;
@@ -123,13 +126,13 @@ h1{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background-image: url(images/ClassPass_Zoom-background_6-min.jpeg);
+    background-image: url(couple/IMG_5593.JPG);
 
 }
 
 
 .button{
-    background-color: blue;
+    background-color: pink;
     color: white;
     padding: 20px 40px;
     font-size: 25px;
@@ -186,7 +189,7 @@ h1{
     z-index: 0;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
-    background-color: gray;
+    background-color: pink;
     backdrop-filter: blur(3.5px);
     
 
@@ -209,7 +212,7 @@ section{
     align-items: center;
     padding: 80px 100px;
     color: black;
-    background-color: #1112222a;
+    background-color: pink;
 }
 
 .container1{
@@ -235,9 +238,11 @@ section{
 .content .image{
     position: relative;
     width: 800px;
-    height: 400px;
+    height: 450px;
     overflow: hidden;
 }
+
+
 
 .content .image img{
     z-index: 111;
@@ -252,7 +257,7 @@ section{
 
 .content .text-box{
     z-index: 222;
-    background: gray;
+    background: white;
     backdrop-filter: blur(20px);
     padding: 40px;
     max-width: 400px;
